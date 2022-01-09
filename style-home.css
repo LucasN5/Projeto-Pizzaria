@@ -1,0 +1,373 @@
+body{
+    font-family: 'Playfair Display', serif;
+}
+
+
+.cabeçalho{
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+nav {
+   position: absolute;
+   top: 110px;
+   right: 450px;
+} 
+
+nav li{
+    display: inline;
+    margin-left: 15px;
+    
+}
+
+
+nav a{
+    color: black solid;
+    text-decoration: none;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+nav a:hover{
+    color:lightgrey;
+    text-decoration:underline black solid;
+}
+
+
+
+.Logo-pizza{
+    position: relative;
+    left:400px;
+}
+
+.Conteudo-principal {
+    margin-top: 25px;
+    text-align: center;
+}
+
+#linha-vertical{
+    height: 200px;
+    border-right: 3px solid grey;
+    display: inline-block;
+    float: right;
+    position: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    margin-top: 100px;
+}
+
+#linha-horizontal{
+    width: 300px;
+    border: 0.5px solid grey;
+    vertical-align: center;
+    color: solid black solid;
+    margin-top: 50px;
+    display:inline-block;
+    float: center;
+    margin-left: 275px;
+    padding-left: 1035px;
+    
+
+    
+}
+
+#linha-horizontal2{
+    width: 300px;
+    border: 1px solid grey;
+    position: center;
+    float: center;
+    display: inline-block;
+    padding-left: 600px;
+}
+
+.ilustração_pizza{
+    float: right;
+    margin-right: 100px;
+    padding-right: 150px;
+    padding-top: 50px;
+    width: 25%;
+    padding-left: 80px;
+     
+}
+
+.pizzas-mais-pedidas{
+    padding-top: 175px;
+    padding-bottom: 175px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+
+.As-mais-pedidas{
+    margin-top:150px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    width: 50px;
+    display: inline;
+}
+
+.As-mais-pedidas h2{
+    text-align: center;
+    margin-top: 50px;
+    font-weight: bold;
+    font-style: oblique;
+    font-size: 30px;
+}
+
+.pizzas-da-casa{
+    width:940px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.pizzas-da-casa li{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px black solid;
+    border-radius: 10px;
+} 
+
+.descrição-pizzas{
+    
+    color: black solid;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity .2s, visibility .2s;
+    
+}
+
+.descrição-pizzas2{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    color:black solid;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity .2s, visibility .2s; 
+    font-style: oblique;
+}
+
+.pizzas-da-casa li:hover .descrição-pizzas {
+    visibility: visible;
+    opacity: 1;
+    cursor: pointer;
+    
+}
+
+.pizzas-da-casa li:hover .descrição-pizzas2{
+    visibility: visible;
+    opacity: 1;
+    cursor: pointer;
+    font-style: oblique;
+}
+
+.ilustração-da-casa{
+    width: 100%;
+    
+}
+
+.ilustração-da-casa2{
+    width: 67%;
+}
+
+.ilustração-da-casa3{
+    width: 65%;
+}
+
+.ilustração-da-casa4{
+    width: 60%;
+}
+
+.ilustração-da-casa5{
+    width: 73%;
+}
+
+.ilustração-da-casa6{
+    width: 70%;
+}
+
+.ilustração-da-casa7{
+    width: 65%;
+}
+
+.ilustração-da-casa8{
+    width:65%;
+}
+
+.ilustração-da-casa9{
+    width:100%;
+}
+
+.localização{
+    margin-top: 25px
+}
+
+.localização h1{
+    font-size: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.Lema{
+    font-weight: bold;
+}
+
+.sobre-a-pizzaria{
+    font-size: 26px;
+    display:inline-block;
+    vertical-align: bottom;
+    padding-top: 50px;
+    padding-left: 200px;
+    text-align:left;
+}
+
+.Conteudo-principal h1{
+    font-size: 30px;
+    font-weight: bold;
+    font-style: oblique;
+    display: block;
+    padding-left: 100px;
+    padding-bottom: 35px;
+}
+
+.conteudo-sobre-pizzaria{
+    padding-bottom: 150px; 
+    padding-top: 150px;
+    margin: 0 200px 0 200px;
+}
+
+.localização{
+    text-align: center;
+    position: center;
+}
+
+.contato{
+    margin-top: 35px;
+   
+}
+
+.contato h1{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 250px;
+    margin-bottom: 100px;
+}
+
+.main-contato{
+    width: 940px;
+    margin: 0 auto;
+    display: inline-block;
+    position: relative;
+    padding-right: 50px;
+    margin-top: 50px;
+    padding-left: 10px;
+    margin-bottom: 50px;
+}
+
+.contatos-da-pizzaria{
+    float: left;
+    margin-left: 240px;
+    position: relative;
+    margin-right: 240px;
+    margin-top: 100px
+}
+
+.contatos-da-pizzaria h1{
+    font-size: 35px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.contatos-da-pizzaria h2{
+    font-size: 30px;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+.contatos-da-pizzaria p{
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+
+.input-padrao{
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+    
+    
+}
+
+.selecionar{
+    display: block;
+    padding-bottom: 30px;
+    margin-bottom: 20px;
+    width: 56%;
+}
+
+
+form {
+    margin: 40px 0;
+}
+
+form label{
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+.checkbox{
+    margin: 20px 0;
+}
+
+.enviar{
+    width: 70px;
+    padding: 15px 0;
+    background-color: rgb(131, 23, 23);
+    color:white;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.enviar:hover{
+    background-color:rgb(131, 23, 23);
+    transform: scale(1.1);
+}
+
+.enviar:before{
+    content:"✉"
+}
+
+.selecionar{
+    font-size:17px;
+    vertical-align: center;
+    
+}
+
+.opções{
+    margin-top: 25px;
+}
+
+footer{
+    padding: 40px 0;
+    text-align: center;
+}
+
+.copyright{
+    font-style:bold;
+    margin-top: 20px;
+    font-size: 15px;
+}
+

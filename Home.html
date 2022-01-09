@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+    
+    <head>
+        <meta charset="UTF-8">
+
+        <title>Pizzaria Jamilson</title>
+    
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style-home.css">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Playfair+Display&display=swap" rel="stylesheet">
+        <meta name="viewport" content="width=device-width">
+
+    </head>
+
+    <header>
+        <div class="Cabeçalho">
+            <h1><img src="Logo da pizzaria.png" alt="Logo da Pizzaria Jamilson" class="Logo-pizza"> </h1>
+
+            <nav style>
+                <ul>
+                    <li> <a href="Home.html"> Home </a> </li>
+                    <li> <a href="Cardápio.html"> Cardápio </a> </li>
+                </ul>
+            </nav>   
+        </div>
+    </header>
+
+    <div id="linha-horizontal"></div>
+
+    <img src="">
+    
+    <body>
+        <main>
+            <div class="Conteudo-principal">
+
+
+                <section class="conteudo-sobre-pizzaria">
+                    
+                    <h1>Sobre a Pizzaria Jamilson</h1>
+
+                    <img src="Ilustração pizza.jpg" alt="Pizza" class="ilustração_pizza">
+
+                    <div id="linha-vertical"></div>
+
+                    <p class="sobre-a-pizzaria">Fundada em 2021, a Pizzaria Jamilson,<br> deseja oferecer apenas o melhor do que<br> há na culinária para seus clientes.<br> A Pizzaria Jamilson segue o seguinte<br> lema: "A felicidade do cliente<br> é a nossa felicidade". <br> Uma maravilhosa diversificação<br> de sabores os aguarda na <br>mais nova e famosa<br> Pizzaria Jamilson. </p>
+
+                </section>
+
+            </div>
+            <!---->
+            <div class="pizzas-mais-pedidas">
+
+                <section class="As-mais-pedidas">
+
+                    <h2 id="melhores-da-casa-titulo"> As melhores da casa</h2>
+                    <ul class="pizzas-da-casa">
+                        <li>
+                            <a href="">
+                                <img src="pizza-calabresa.jpg" class="ilustração-da-casa" alt="Pizza de calabresa">
+                                <p class="descrição-pizzas2">Pizza Calabresa </p>
+                                <p class="descrição-pizzas">Mussarela, calabresa e cebola, oregano.</p> 
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="">
+                            <img src="pizza-portuguesa.jpg" class="ilustração-da-casa2" alt="Pizza Portuguesa">
+                            <p class="descrição-pizzas2">Pizza Portuguesa</p>
+                            <p class="descrição-pizzas">Mussarela, presunto, cebola e oregano.</p>
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="">
+                            <img src="pizza-margherita3.png" class="ilustração-da-casa3" alt="Pizza Margherita">
+                            <p class="descrição-pizzas2">Pizza Margherita</p>
+                            <p class="descrição-pizzas">Mussarela, tomate, oregano e manjericão.</p>
+                            </a>
+                        </li>
+                    </ul>
+                </section>
+
+            </div>
+
+            <div class="localização">
+                <h1>Localização</h1>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3644.716342336401!2d-46.41533594889553!3d-24.005791783964444!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce1db30381ef89%3A0x1d12977002dba9db!2sAv.%20Pres.%20Costa%20e%20Silva%2C%20856%20-%20Boqueir%C3%A3o%2C%20Praia%20Grande%20-%20SP%2C%2011700-007!5e0!3m2!1spt-BR!2sbr!4v1641231533759!5m2!1spt-BR!2sbr" width="1000" height="450" style="border:5px;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+
+            <div class="contato">
+            
+                    <h1>Fale Conosco</h1>
+                <section class="contatos-da-pizzaria">
+                    <ul>
+                        <h2> Bairro: Boqueirão</h2>
+                        <p>Rua: Av. Pres. Costa e Silva, 856</p>
+                        <p>Telefone: (00) ****-****</p>
+                        <p>Whatsapp: (00) ****-****</p>
+                        <p>E-mail: atendimento@pizzariajamilson.com.br</p>
+                    </ul>
+                </section>
+
+                
+                
+                <section class="main-contato">
+                    <form>
+
+                        <label for="nomesobrenome">Nome e Sobrenome</label>
+                        <input type="text" id="nomesobrenome" class="input-padrao" required placeholder="Seu nome e Sobrenome">
+
+                        <label for="email">E-mail</label>
+                        <input type="email" id="email" class="input-padrao" required placeholder="seuemail@gmail.com">
+
+                        <label for="telefone">Telefone</label>
+                        <input type="tel" id="telefone" class="input-padrao" required placeholder="(XX) XXXX-XXXX">
+                        
+                    
+                        <select class="selecionar">
+                            <option class="opções">Informações</option>
+                            <option class="opções">Reclamações</option>
+                            <option class="opções">Sugestões</option>
+                            <option class="opções">Eventos</option>
+                            <option class="opções">Agendamento</option>
+                        </select>
+                        
+
+                        <label for="mensagem">Mensagem</label>
+                        <textarea cols="70" rows="10" id="mensagem" class="input-padrao" placeholder="Digite sua Mensagem"></textarea>
+
+                        <label class="checkbox"> <input type="checkbox" checked> Gostaria de receber novidades por E-mail ? </label>
+
+                        <input type="submit" value="Enviar" class="enviar">
+
+
+                    </form>
+                </section>
+
+
+            </div>
+        </main>
+
+        <div id="linha-horizontal"></div>
+
+        <footer>
+            <img src="Logo da pizzaria.png" alt="Logo Pizzaria">
+            <p class="copyright">&copy; Copyright Pizzaria Jamilson - 2022</p>
+        </footer>
+
+
+    </body>
+</html>
