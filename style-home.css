@@ -23,15 +23,15 @@ nav li{
 
 
 nav a{
-    color: black solid;
     text-decoration: none;
+    color: black;
     font-size: 25px;
     text-transform: uppercase;
     font-weight: bold;
 }
 
 nav a:hover{
-    color:lightgrey;
+    color: lightgrey;
     text-decoration:underline black solid;
 }
 
@@ -135,9 +135,13 @@ nav a:hover{
     border-radius: 10px;
 } 
 
+.pizzas-da-casa a{
+    text-decoration: none;
+}
+
 .descrição-pizzas{
     
-    color: black solid;
+    color: black;
     visibility: hidden;
     opacity: 0;
     transition: opacity .2s, visibility .2s;
@@ -147,11 +151,12 @@ nav a:hover{
 .descrição-pizzas2{
     padding-top: 25px;
     padding-bottom: 25px;
-    color:black solid;
+    color:black;
     visibility: hidden;
     opacity: 0;
     transition: opacity .2s, visibility .2s; 
     font-style: oblique;
+    
 }
 
 .pizzas-da-casa li:hover .descrição-pizzas {
@@ -166,6 +171,7 @@ nav a:hover{
     opacity: 1;
     cursor: pointer;
     font-style: oblique;
+    
 }
 
 .ilustração-da-casa{
